@@ -1,0 +1,43 @@
+.hero-section {
+    position: relative;
+    text-align: center;
+    padding: 2rem;
+    background-color: #0F0F0F;
+    color: white;
+    overflow: hidden; /* Ensure the grid pattern stays within the bounds */
+  }
+  
+  .hero-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    position: sticky;
+    z-index: 1000;
+  }
+  
+  .hero-image {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 15px; /* Rounded corners */
+    object-fit: cover; /* Ensure image fits well */
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1; /* Ensure the content is above the grid pattern */
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem; /* Adjust size as needed */
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.25rem; /* Adjust size as needed */
+  }
+  
+  .grid-pattern {
+    mask-image: radial-gradient(500px circle at center, white, transparent);
+  }
+  

@@ -1,0 +1,22 @@
+.contact-card-content{
+    flex: 1 1;
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.contact-cta-button{
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: rgba(108, 99, 255, 0.8); /* Slightly transparent button */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'ClashDisplay', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}

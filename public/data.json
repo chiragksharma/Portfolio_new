@@ -1,0 +1,82 @@
+{
+  "profile": {
+    "name": "Chirag Sharma",
+    "title": "Full stack AI developer",
+    "image": "gta_profile.jpeg",
+    "languages": ["English", "Malayalam", "Hindi"]
+  },
+  "experience": [
+    {
+      "position": "Marketing Manager",
+      "company": "Fisherman",
+      "duration": "Jun 2020 - Present",
+      "description": [
+        "Strategy development and planning of campaigns that promote the business and generate genuine traffic.",
+        "SEO Content Creation for Blogs, Websites, Social media"
+      ]
+    },
+    {
+      "position": "Graphic / Web designer",
+      "company": "",
+      "duration": "2017 - Present",
+      "description": [
+        "Development of internal projects from scratch, product design of brands",
+        "Landing page, websites and hybrid apps",
+        "Coordination with outside agencies, art services, web designer, marketing, printers, and colleagues as necessary."
+      ]
+    },
+    {
+      "position": "Legal Assistant",
+      "company": "Lawyer",
+      "duration": "Sep 2021 - Jun 2022",
+      "description": [
+        "Provide administrative support to lawyer and enhance office effectiveness",
+        "Handle communication with clients, witnesses, etc.",
+        "Prepare case briefs and summarize depositions, interrogatories and testimony."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "UI/UX",
+      "institution": "Freecodecamp",
+      "year": "2021",
+      "description": "Visual design certification 40 hours course"
+    },
+    {
+      "degree": "Graphic Design",
+      "institution": "Maharashtra Production House",
+      "year": "2017",
+      "description": "Course"
+    }
+  ],
+  "interests": ["branding", "design", "photography", "artificial intelligence", "illustration", "typography", "social networks", "research", "data pixel", "games"],
+  "tools": ["tool1.png", "tool2.png", "tool3.png"],
+  "projects": [
+    {
+      "name": "React App",
+      "icon": "/ease_ai_300x300_logo.png",
+      "title": "Web Application",
+      "description": "A web app built with React",
+      "link": "https://github.com/chirag/react-app"
+    },
+    {
+      "name": "Node.js API",
+      "icon": "FaNodeJs",
+      "title": "Backend API",
+      "description": "A RESTful API built with Node.js",
+      "link": "https://github.com/chirag/nodejs-api"
+    },
+    {
+      "name": "Database Design",
+      "icon": "FaDatabase",
+      "title": "Database Project",
+      "description": "Designing a scalable database",
+      "link": "https://github.com/chirag/database-design"
+    }
+  ],
+  "contact": {
+    "message": "Let's chat! I'm ready to work on exciting projects",
+    "email": "chirag.designwork@gmail.com"
+  }
+}

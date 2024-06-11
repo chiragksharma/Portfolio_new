@@ -1,0 +1,23 @@
+portfolio/
+├── node_modules/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Contact.js
+│   │   ├── Education.js
+│   │   ├── Experience.js
+│   │   ├── Interests.js
+│   │   ├── Profile.js
+│   │   └── Tools.js
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   ├── index.css
+│   └── data.json
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+├── package-lock.json
+└── README.md

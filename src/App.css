@@ -1,5 +1,29 @@
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('../public/fonts/ClashDisplay-Variable.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'ClashDisplay', sans-serif;
+}
+
+/* index.css or App.css */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
+}
+.app-container{
+  background-color: #0F0F0F;
+  padding: 20px;
+  min-height: 100vh; /* Use min-height to ensure it takes at least the full viewport height */
+  box-sizing: border-box; /* Include padding and border in the element's total height and width */
+  /* height: 100%; */
 }
 
 .App-logo {
@@ -13,6 +37,10 @@
   }
 }
 
+.bento-card-icon{
+  width: 60px;
+  height: 60px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +54,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.navbar-container{
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  justify-content: center;
+  padding: 1px;
 }
 
 @keyframes App-logo-spin {
