@@ -11,20 +11,39 @@ body {
 
 /* index.css or App.css */
 html, body, #root {
-  height: 100%;
+  height: 100vh;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden; /* Prevents scrolling on the root elements */
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  background-color: #0F0F0F;
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  overflow-y: auto; /* Enables vertical scrolling if content exceeds viewport height */
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
-.app-container{
-  background-color: #0F0F0F;
-  padding: 20px;
-  min-height: 100vh; /* Use min-height to ensure it takes at least the full viewport height */
-  box-sizing: border-box; /* Include padding and border in the element's total height and width */
-  /* height: 100%; */
-}
+
 
 .App-logo {
   height: 40vmin;

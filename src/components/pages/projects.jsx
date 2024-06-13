@@ -141,8 +141,8 @@ const Projects = () => {
       </MagicContainer>
       <Particles
         className="absolute inset-0 particles-container z-0"
-        quantity={100}
-        ease={80}
+        quantity={500}
+        ease={200}
         color="#ffffff"
       />
     </div>

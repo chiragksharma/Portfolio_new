@@ -11,7 +11,7 @@
     z-index: 0; /* Ensure particles are behind the container */
     
   }
-  .card-content {
+  .about-me-card-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +20,7 @@
     max-width: 800px;
   }
   @media (min-width: 768px) {
-    .card-content {
+    .about-me-card-content {
       flex-direction: row;
     }
   }

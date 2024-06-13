@@ -2,6 +2,7 @@ import React from 'react';
 import './HeroCard.css'; // Make sure to create appropriate CSS for styling
 import { useNavigate } from 'react-router-dom';
 import ShineBorder from './magic-ui/shine-border';
+import WordFadeIn from './magic-ui/word-fade-in';
 
 const HeroCard = ({ title, description, image, buttonText, path }) => {
     const navigate = useNavigate();
@@ -13,6 +14,7 @@ const HeroCard = ({ title, description, image, buttonText, path }) => {
     <div className="hero-card">
       <div className="hero-card-content">
         <h1>{title}</h1>
+        {/* <WordFadeIn words={title}/> */}
         <p>{description}</p>
         <button className="cta-button" onClick={handleButtonClick}>{buttonText}</button>
       </div>

@@ -1,0 +1,8 @@
+.about-me-page-container{
+    /* overflow-y: auto; Enables vertical scrolling if content exceeds viewport height */
+    box-sizing: border-box;
+    flex: 1;
+    position: relative;
+    z-index: 1;
+
+}

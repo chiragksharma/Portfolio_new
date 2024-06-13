@@ -4,6 +4,7 @@ import GridPattern from './magic-ui/grid-pattern';
 import AnimatedGradientTextDemo from './SayHi';
 import { NeonGradientCard } from "./magic-ui/neon-gradient-card";
 import { cn } from '../lib/utils';
+import WordFadeIn from './magic-ui/word-fade-in';
 
 const HeroSection = ({ title, description, imagePath }) => {
   return (
@@ -14,8 +15,9 @@ const HeroSection = ({ title, description, imagePath }) => {
         </NeonGradientCard>
       </div>
       <div className="hero-content">
-        <h1>Welcome</h1>
-        <p>Hey 👋🏼, I'm Chirag Sharma, Full stack AI developer</p>
+        {/* <h1>Welcome</h1> */}
+        <WordFadeIn words="Welcome" delay={0.35}/>
+        <p> Hola 👋🏻, I'm Chirag Sharma.<br/> Welcome to my personal space.</p>
       </div>
       <AnimatedGradientTextDemo/>
       <GridPattern
