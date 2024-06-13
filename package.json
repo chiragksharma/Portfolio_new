@@ -10,6 +10,7 @@
     "ajv": "^8.16.0",
     "ajv-keywords": "^5.1.0",
     "lucide-react": "^0.394.0",
+    "next": "^14.2.4",
     "react": "^18.3.1",
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.3.1",
