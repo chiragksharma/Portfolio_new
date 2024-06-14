@@ -15,13 +15,13 @@ const Projects = () => {
             borderWidth={3}
             className="flex flex-col cursor-pointer justify-between overflow-visible z-10 max-w-full p-4 shadow-2xl transition-transform transform hover:scale-105"
           >
-            <a href="https://easeai.site/en/" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-between h-full">
+            <a href="" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-between h-full">
               <div className="flex items-center justify-start gap-4">
                 <h1 className="text-2xl font-medium text-white">Ease AI</h1>
                 <Sparkles fill="#850dfd" color="#850dfd" strokeWidth={1.5} absoluteStrokeWidth />
               </div>
               <p className="text-white mt-2">
-                This is a description for card 1. Here you can include additional information.
+                This is an end to end SaaS product  
               </p>
               <div className="relative mt-4">
                 <img
