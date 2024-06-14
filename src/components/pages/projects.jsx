@@ -21,7 +21,7 @@ const Projects = () => {
                 <Sparkles fill="#850dfd" color="#850dfd" strokeWidth={1.5} absoluteStrokeWidth />
               </div>
               <p className="text-white mt-2">
-                This is an end to end SaaS product  
+                An AI chrome extension which analyzes your current video and provides you various tools and analysis for the video.
               </p>
               <div className="relative mt-4">
                 <img
@@ -43,7 +43,7 @@ const Projects = () => {
                   <SquareArrowOutUpRight color="white" />
                 </div>
                 <p className="text-white mt-2">
-                  This is a description for card 2. Here you can include additional information.
+                  A webapp through which you can summarize and chat with your pdf's.
                 </p>
               </div>
               <img
@@ -64,7 +64,7 @@ const Projects = () => {
                   <SquareArrowOutUpRight color="white" />
                 </div>
                 <p className="text-white mt-2">
-                  This is a description for card 3. Here you can include additional information.
+                  This is an ecommerce webapp built on nextjs integrated with sanity as backend. 
                 </p>
               </div>
               <img
@@ -85,7 +85,7 @@ const Projects = () => {
                   <SquareArrowOutUpRight color="white" />
                 </div>
                 <p className="text-white mt-2">
-                  This is a description for card 4. Here you can include additional information.
+                  Stock prediction comparing deep learning techniques such as LSTM and RNN.
                 </p>
               </div>
               <img
@@ -106,8 +106,7 @@ const Projects = () => {
                   <SquareArrowOutUpRight color="white" />
                 </div>
                 <p className="text-white mt-2">
-                  This is a description for card 5. Here you can include additional information.
-                </p>
+                  QR code conditioned ControlNet for Stable Diffusion v1.5 and v2.1, allowing QR codes to blend with prompts.</p>
               </div>
               <img
                 src="/projects-images/qrcode_ai_project5.jpg"
@@ -127,7 +126,7 @@ const Projects = () => {
                   <SquareArrowOutUpRight color="white" />
                 </div>
                 <p className="text-white mt-2">
-                  This is a description for card 6. Here you can include additional information.
+                  A simple book recommendation system using KNN to recommend the best books to the user based on there interests.
                 </p>
               </div>
               <img
