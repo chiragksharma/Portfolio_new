@@ -8,12 +8,12 @@ import ShinyButton from '../magic-ui/shiny-button';
 const AboutMe = () => {
 
   return (
-    <div className='about-me-page-container m-5'>
+    <div className='about-me-page-container'>
       {/* <MagicCard className="flex flex-col md:flex-row items-start md:items-center justify-around overflow-hidden p-10 shadow-2xl z-10 max-w-5xl mx-auto"> */}
       <MagicContainer className="w-full p-10">
       <MagicCard
         borderWidth={3}
-        className="flex flex-col items-start md:flex-row md:items-center justify-around overflow-hidden z-10 max-w-5xl mx-auto p-10 shadow-2xl"
+        className="flex flex-col items-start md:flex-row md:items-center justify-around overflow-hidden z-10 max-w-5xl mx-auto p-4 shadow-2xl"
       >
 
         <div className="about-me-card-content">

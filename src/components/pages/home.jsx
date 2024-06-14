@@ -72,19 +72,19 @@ function Home() {
             <div className="container">
                 {renderCard(
                     "About Me",
-                    "I'm a Curious developer who likes to build things on the internet ",
+                    "I'm a curious developer who likes to build things on the internet ",
                     "/about_me.svg",
                     "/about-me"
                 )}
                 {renderCard(
                     "Projects",
-                    "I created projects related to Full stack webapps and AI apps.",
+                    "I created projects related to full stack webapps and AI apps.",
                     "/projects-icon.svg",
                     "/projects"
                 )}
                 {renderCard(
                 "Experience",
-                "I have experience in making Full stack webapps and in AI/ML as well",
+                "I have experience in making full stack webapps and in AI/ML as well",
                 "/experience_icon.svg",
                 "/experience",
                 true

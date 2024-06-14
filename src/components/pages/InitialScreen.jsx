@@ -5,8 +5,8 @@ import './InitialScreen.css'; // Ensure you have appropriate styling
 
 const quotes = [
   "The important thing is not to stop questioning. – Albert Einstein",
-  "Be curious, not judgmental. – Walt Whitman",
-  "Curiosity is the engine of achievement. – Ken Robinson",
+  "Be less curious about people and more curious about ideas. – Marie Curie",
+  "The best in business have boundless curiosity and open minds. – Ken Robinson",
   "I have no special talents. I am only passionately curious. – Albert Einstein"
 ];
 
@@ -20,11 +20,11 @@ const InitialScreen = ({ onClose }) => {
     
     const fadeOutTimer = setTimeout(() => {
       setFadeOut(true);
-    }, 1000); 
+    }, 1900); 
 
     const closeTimer = setTimeout(() => {
       onClose();
-    }, 4000); 
+    }, 5000); 
 
     return () => {
       clearTimeout(fadeOutTimer);
