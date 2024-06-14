@@ -29,7 +29,7 @@ const Contact = () => {
         
     };
   return (
-    <div className='blog-container m-5 '>
+    <div className='blog-container mt-5'>
       {/* <MagicCard className="flex flex-col md:flex-row items-start md:items-center justify-around overflow-hidden p-10 shadow-2xl z-10 max-w-5xl mx-auto"> */}
         <div className='flex flex-col items-center  gap-6 max-w-5xl mx-auto'>
             <WordFadeIn words="Contact" />
